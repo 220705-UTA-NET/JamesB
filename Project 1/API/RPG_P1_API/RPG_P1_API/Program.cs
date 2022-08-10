@@ -3,7 +3,7 @@
 
 using P1_IRepository;
 
-string connectionString = "";
+string connectionString = "${{ Connection_String }}";
 
 
 var builder = WebApplication.CreateBuilder(args);
